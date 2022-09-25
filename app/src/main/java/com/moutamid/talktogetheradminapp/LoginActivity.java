@@ -6,12 +6,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 import com.moutamid.talktogetheradminapp.databinding.ActivityLoginBinding;
 
 public class LoginActivity extends AppCompatActivity {
 
-    private String myemail = "admin123@gmail.com";
-    private String mypassword = "admin123";
+    private String myemail = "talktogatherapp@gmail.com";
+    private String mypassword = "Better:ToGather!";
     private SharedPreferencesManager manager;
     private ActivityLoginBinding b;
 
